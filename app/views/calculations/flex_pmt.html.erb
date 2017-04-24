@@ -1,0 +1,3 @@
+<h1>Flexible Payment</h1>
+
+A <%= @user_years%> year loan of <%= number_to_currency(@user_principal) %>, with an annual interest rate of <%= number_to_percentage(@user_apr*100) %>, requires a monthly payment of <%= number_to_currency(@monthly_payment) %>.
